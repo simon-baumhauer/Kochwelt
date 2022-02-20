@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rezept</title>
+    <script src="script.js"></script>
+    
+</head>
+
+<body onload="rezept2()">
+    <div w3-include-html="templates/nav.html"></div>
+    <div class="padding">
+        <header class="header">
+            <h1>Französische Croissants</h1>
+            <img class="header-img" src="img/croissant.jpg" alt="">
+            <div class="icon-container">
+                <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">4 Stunden</span>
+                <span class="info-style"><img class="icons" src="img/icons/brain-solid.svg"
+                        alt="">Fortgeschritten</span>
+                <span class="info-style"><img class="icons" src="img/icons/calendar-alt-regular.svg"
+                        alt="">15.01.2022</span>
+            </div>
+        </header>
+        <main>
+            <form class="list-items">
+                <lh class="header-list">
+                    <div class="stylePortions">
+                        <span class="min-width">Zutaten für</span><span><input id="counter" type="number" min="1"
+                                placeholder="1" value="1"><button onclick="rezept2()" form="counter" class="btn"
+                                type="submit">Portionen</button></span>
+                    </div>
+                </lh>
+                <ul class="list-items" id="listItems">
+
+
+                </ul>
+
+            </form>
+            <section class="preparation">
+                <h2>Zubereitung</h2>
+                <div>
+                    <div class="icon-container">
+                        <span class="info-style"> <img class="icons" src="img/icons/clock-regular.svg"
+                                alt="">Vorbereitung ca. 30 Minuten</span>
+                        <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">Ruhen ca. 3
+                            Stunden</span>
+                        <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">Gesamtzeit
+                            ca. 4 Stunden</span>
+                    </div>
+                    <div class="textJustify">
+                    <p>
+                    <h2>Zubereitung von Croissants</h2>
+                    <br>
+                    1. Wärmen Sie die Milch auf (nicht kochen!). Bröckeln Sie die Hefe dazu. Etwas Mehl und eine Prise
+                    Zucker hinzugeben und zu Brei rühren.
+                    <br><br>
+                    2. Stellen Sie den abgedeckten Croissant-Teig nun 30 Minuten ruhig.
+                    <br><br>
+
+
+                    3. Vermengen Sie nun das Mehl, den Zucker und das Salz in einer Rührschüssel. Drücken Sie in die
+                    Mitte eine Mulde und geben die zwei aufgeschlagenen Eier hinein. Schneiden Sie Butter in kleine
+                    Stückchen und geben Sie sie dazu.
+                    <br><br>
+                    4. Gießen Sie nun den Brei mit der Hefe dazu und kneten Sie alles zu einem geschmeidigen Teig.
+                    Stellen Sie diesen Hefeteig etwa 3 Stunden ruhig. Beachten Sie: der Teig wird auf die doppelte Größe
+                    aufgehen.
+                    <br><br>
+                    5. Kneten Sie nach der Ruhezeit den Croissant-Teig nochmals gut durch und rollen Sie in zu einem
+                    Quadrat aus.
+                    <br><br>
+                    6. Wickeln Sie die Markenbutter in Klarsichtfolie ein und rollen Sie die Butter mit dem Nudelholz zu
+                    einem Quadrat, etwa halb so groß wie der ausgerollte Teig.
+                    <br><br>
+                    7. Bestreuen Sie die Butter nun mit etwas Mehl und legen Sie sie um 45 Grad auf den ausgerollten
+                    Croissant-Teig. Schlagen Sie nun die Ecken vom Teig um (wie ein Briefumschlag) und rollen Sie den
+                    mit dem Nudelholz erneut aus. Die Butter ist nun als Zwischenlage im Teig eingerollt.
+                    <br><br>
+                    8. Klappen Sie den Croissant-Teig nun dreifach um und rollen Sie ihn aus. Das gleiche nochmals -
+                    zusammenklappen und ausrollen.
+                    <br><br>
+                    9. Decken Sie den Teig nun mit einem Tuch ab und lassen Sie ihn 15 Minuten ruhen.
+                    <br><br>
+                    10. Rollen Sie den Croissant Teig in eine ca. 50 x 30 cm große Fläche aus. Schneiden Sie nun
+                    gleichgroße und gleichschenklige Dreiecke aus dem Croissant Teig.
+                    <br><br>
+                    11. Rollen Sie die Dreicke von der breiten Seite her auf. Bringen Sie die Croissants in die typisch
+                    runde Hörnchenform und legen Sie sie auf das gefettete Backblech. Legen Sie ein Tuch darüber und
+                    lassen Sie die ungebackenen Croissants 30 Minuten gehen.
+                    <br><br>
+                    12. Im vorgeheizten Backofen bei 200°C etwa 20 Minuten lang backen. Anschließend ca. 10 Minuten
+                    auskühlen lassen und noch warm genießen.
+                    <br><br>
+                    Bon Apetit!</p>
+                    <br>
+                </div>
+            </section>
+            <section class="profile">
+                <h3 class="h3-margin">Rezept erstellt von</h3>
+                <div class="profile-info">
+                    <img src="img/profile.png" alt=""><span>Michael Soquat</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div w3-include-html="templates/footer.html"></div>
+
+</body>
+
+</html>

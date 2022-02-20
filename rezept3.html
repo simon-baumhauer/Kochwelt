@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body onload="rezept3()">
+    <div w3-include-html="templates/nav.html"></div>
+    <div class="padding">
+        <header class="header">
+            <h1>Lachsnudeln</h1>
+            <img class="header-img" src="img/pasta.jpg" alt="">
+            <div class="icon-container">
+                <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">25 min</span>
+                <span class="info-style"><img class="icons" src="img/icons/brain-solid.svg" alt="">Einfach</span>
+                <span class="info-style"><img class="icons" src="img/icons/calendar-alt-regular.svg"
+                        alt="">23.01.2022</span>
+            </div>
+        </header>
+        <main>
+            <form class="list-items">
+                <lh class="header-list">
+                    <div class="stylePortions">
+                        <span class="min-width">Zutaten für</span><span><input id="counter" type="number" min="1"
+                                placeholder="1" value="1"><button onclick="rezept3()" form="counter" class="btn"
+                                type="submit">Portionen</button></span>
+                    </div>
+                </lh>
+                <ul class="list-items" id="listItems">
+
+
+                </ul>
+
+            </form>
+            <section class="preparation">
+                <h2>Zubereitung</h2>
+                <div>
+                    <div class="icon-container">
+                        <span class="info-style"> <img class="icons" src="img/icons/clock-regular.svg" alt="">ca 25
+                            Minuten</span>
+                        <span class="info-style"><img class="icons" src="img/icons/clock-regular.svg" alt="">Gesamtzeit
+                            ca 25 Minuten</span>
+                    </div>
+                    <div>
+                        <p class="textJustify">Lauchzwiebeln putzen, waschen, in Ringe schneiden. Lachs abbrausen,
+                            trocken tupfen, evtl. Gräten entfernen. Den Lachs in mundgerechte Stücke schneiden. Tomaten
+                            waschen, halbieren.
+                            Bandnudeln nach Packungsangabe in Salzwasser garen.
+                            Öl in einer Pfanne erhitzen, die Lauchzwiebeln darin bei mittlerer Hitze andünsten. Die
+                            Lachswürfel hinzufügen und 2-3 Minuten rundum anbraten. Kirschtomaten zugeben, kurz
+                            mitbraten. Sahne angießen, Tomatenmark einrühren, mit Pfeffer und ein wenig Jodsalz würzen.
+                            1 Kelle (ca. 100 ml) Nudelkochwasser abnehmen und in die Sahnesoße einrühren.
+                            Nudeln abgießen, unter die Sahnesoße heben. Mit der gehackten Petersilie bestreut servieren.
+                        </p>
+                    </div>
+            </section>
+            <section class="profile">
+                <h3 class="h3-margin">Rezept erstellt von</h3>
+                <div class="profile-info">
+                    <img src="img/profile.png" alt=""><span>Michael Gottlieb</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div w3-include-html="templates/footer.html"></div>
+</body>
+
+</html>

@@ -1,0 +1,577 @@
+/* === GENERAL === */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.emailSend {
+    text-align: center;
+    padding: 80px;
+}
+
+/* === NAVBAR === */
+
+.logo {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-container {
+
+    border-bottom: solid 1px transparent;
+    box-shadow: 0 1px 5px #afadad;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar div {
+    height: 80px
+}
+
+.nav-btn {
+    display: flex;
+    align-items: end;
+}
+
+.nav-btn a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    line-height: 150%;
+}
+
+.nav-btn a:hover {
+    text-underline-offset: 6px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: green;
+}
+
+.nav-btn a:active {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: green;
+}
+
+/* === STYLES RECEIPTS === */
+
+.header h1 {
+    margin: 100px 0px 0px 0px;
+}
+
+.header-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 30px 0px;
+}
+
+.info-style {
+    background-color: lightgrey;
+    padding: 2px 8px;
+    border-radius: 8px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.icons {
+    padding-right: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+}
+
+.preparation h2 {
+    margin: 30px 0px 7px 0px;
+}
+
+.h3-margin {
+    margin-bottom: 50px;
+}
+
+.icon-container {
+    padding-bottom: 30px;
+    border-bottom: solid 1px #afadad;
+}
+
+.header-list {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.header-list span {
+    padding-right: 10px;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-list input {
+    border-radius: 4px 0px 0px 4px;
+    border: solid 1px #afadad;
+    width: 90px;
+}
+
+.header-list button {
+    border-radius: 0px 4px 4px 0px;
+    color: white;
+    border: none;
+    line-height: 2.7;
+    font-family: 'Raleway';
+}
+
+.counter {
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.min-width {
+    min-width: 90px;
+}
+
+.stylePortions {
+    display: flex;
+}
+
+.btn {
+    background-color: green;
+}
+
+.list-items {
+    padding: 0px;
+}
+
+.list-items li {
+    list-style: none;
+    line-height: 200%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list-items li:nth-of-type(odd) {
+    background-color: rgb(202, 227, 248);
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    border-radius: 100%;
+}
+
+.profile-info span {
+    padding-left: 20px;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+
+
+/* CROISSANTS */
+
+.receiptCroissants {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.croissantsPic {
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.CroissantsDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.CroissantsDescription h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.CroissantsDescription p {
+    margin: 0;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.CroissantsDescription a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    height: 60px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.CroissantsDescription a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+}
+
+/* SOMETHING NEW? */
+
+.menuSelect {
+    background-color: rgb(238, 235, 235);
+}
+
+.menuSelect h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 35px 0;
+}
+
+.menuPictures {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+.menuPictures img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.DescriptionPicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DescriptionPicture>span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* WHAT´S BETTER? */
+
+.vsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.vsSection h2 {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.vsDescription {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+.vsDescription img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.vsDescription p {
+    font-size: 20px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+/* === CONTACT === */
+
+.kontakt-h1 {
+    margin-top: 100px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Raleway', sans-serif;
+}
+
+.forms textarea,
+input {
+    font-size: 14px;
+    border: solid 1px #afadad;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    font-weight: 400;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.forms textarea {
+    width: 300px;
+    height: auto;
+}
+
+.forms button {
+    background-color: green;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+/* === IMPRESSUM === */
+
+.impressum {
+    margin-bottom: 100px;
+}
+
+.impressum h1 {
+    margin-top: 100px;
+}
+
+/* === FOOTER === */
+
+.footer {
+    background-color: #545454;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 16px;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.footer-container img {
+    object-fit: contain;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-child {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.footerBottom {
+    width: 100%;
+}
+/* === MEDIAS === */
+
+@media (max-width: 1250px) {
+
+    .padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .receiptCroissants {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .croissantsPic {
+        margin-bottom: 30px;
+    }
+
+    .CroissantsDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 600px;
+    }
+
+    .CroissantsDescription h2 {
+        text-align: center;
+    }
+
+    .CroissantsDescription p {
+        padding-bottom: 30px;
+    }
+
+    .menuPictures {
+        flex-direction: column;
+    }
+
+    .DescriptionPicture>span {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        ;
+    }
+
+    .vsDescription {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vsDescription p {
+        margin: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+
+    .vsDescription img {
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .vsSection h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 860px) {
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-style {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .menuPictures {
+        padding-bottom: 20px;
+    }
+
+    .vsDescription {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 660px) {
+    .padding {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .croissantsPic {
+        width: 400px;
+    }
+
+    .vsDescription img {
+        width: 400px;
+    }
+
+    .CroissantsDescription {
+        width: 400px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .cookingPic {
+        width: 300px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .croissantsPic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .vsDescription img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .CroissantsDescription {
+        width: 300px;
+    }
+
+    .padding {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .impressum>h1 {
+        font-size: 28px;
+    }
+}
